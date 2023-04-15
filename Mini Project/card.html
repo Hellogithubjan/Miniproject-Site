@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test your Memory 🧠</title>
+    <link rel="stylesheet" href="css/card.css">
+    <script src="https://kit.fontawesome.com/d70c1f6414.js" crossorigin="anonymous"></script>
+    <script src="js/card.js" defer></script>
+</head>
+
+<body>
+    <div class="cont">
+        <h1>Test Your Brain?</h1>
+        <hr />
+        <h4>Playing memory games can help you improve your attention, concentration, and focus. Memory games encourage critical thinking, which helps children develop their attention to detail. Visual recognition can be boosted by memory games.</h4>
+
+        <div class="Rules">
+            <h4><i class="fa-solid fa-hand-point-right"></i>&nbsp How to play?</h4>
+            <ul>
+                <li><i class="fa-solid fa-check"></i>&nbsp&nbsp&nbsp Grid with auto generated emojis are given</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp&nbsp&nbsp A timer is provided to calculate the time</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp&nbsp&nbsp Total number of moves are calculated for each match</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp&nbsp&nbsp Use you memory to match up with the correct one</li>
+                <li><i class="fa-solid fa-check"></i>&nbsp&nbsp&nbsp When you are ready to play click the start button</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="game">
+        <div class="controls">
+            <button>Start</button>
+            <div class="stats">
+                <div class="moves">
+                    0 Moves
+                </div>
+                <div class="timer">
+                    Time : 0 sec
+                </div>
+            </div>
+        </div>
+
+        <div class="board-container">
+            <div class="board" data-dimension="4"></div>
+            <div class="win">You won!</div>
+        </div>
+    </div>
+</body>
+
+</html>

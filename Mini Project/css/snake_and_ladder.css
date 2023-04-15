@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background-color: #EAFDFC;
+    font-family: "Poppins",sans-serif;
+}
+
+.cont{
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(10, 1fr);
+    margin: 0px 0 0px 0;
+    position: relative;
+    top:20px;
+    box-shadow: 0 2.5em 3.75em rgba(30, 19, 70, 0.3);
+}
+
+.cont div{
+    width: 60px;
+    height: 60px;
+    border: .2px solid black;
+}
+
+#tog{
+    font-size: 25px;
+}
+
+#p1,
+#p2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(236, 82, 82);
+    position: relative;
+    border: 3px solid black;
+   /* position: absolute; */
+}
+
+
+
+#p1{
+    position: relative;
+    top: 0px;
+    transition: all linear .5s;
+    left: -62px;
+    z-index: 2;
+}
+
+#p2{
+      z-index: 2;
+      position: relative;
+      top: -55px;
+      left: -62px;
+      transition: all linear .5s;
+      background-color: rgb(243 , 181 , 46);
+}
+
+img{
+    position: relative;
+    top: -595px;
+    left: 8px;
+    width: 615px;
+    height: 615px;  
+}
+
+#diceCont{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    font-size: 2rem;
+    width: 300px;
+}
+
+#diceBtn{
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(64, 155, 234);
+    border-radius: 5px;
+    width:100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: white;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+#diceBtn:hover {
+    transform: translateY(2px);
+    box-shadow: 0 0 rgba(0, 0, 0, 0);
+  }
+
+
+h1{
+    position: relative;
+    top:20px;
+    margin-bottom:20px ;
+}
+
+.info{
+    position: relative;
+    width: 270px;
+    height: 270px;
+    background-color: black;
+    left: 35%;
+}
+
+.grass-img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    z-index: -1;
+}
+
+.g{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.g0-0{
+    position: absolute;
+    left: -200px;
+    top: 450px;
+}
+
+.g0{
+    position: absolute;
+    left: 0px;
+    top: 450px;
+}
+
+.g1{
+    position: absolute;
+    left: 200px;
+    top: 450px;
+}
+
+.g2{
+    position: absolute;
+    left: 400px;
+    top: 450px;
+}
+
+.g3{
+    position: absolute;
+    left: 600px;
+    top: 450px;
+}
+
+.g4{
+    position: absolute;
+    left: 800px;
+    top: 450px;
+}
+
+.g5{
+    position: absolute;
+    left: 1000px;
+    top: 450px;
+}
+
+.g6{
+    position: absolute;
+    left: 1200px;
+    top: 450px;
+}
+
+.g7{
+    position: absolute;
+    left: 1400px;
+    top: 450px;
+}
+
+.g8{
+    position: absolute;
+    left: 1600px;
+    top: 450px;
+}
